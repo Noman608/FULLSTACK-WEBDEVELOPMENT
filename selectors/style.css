@@ -1,0 +1,18 @@
+*{
+    font-style: italic;
+}
+div{
+    color: rgb(129, 127, 255);
+}
+p{
+    color: brown;
+}
+.big{
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+#one{
+    background-color: aquamarine;
+}
