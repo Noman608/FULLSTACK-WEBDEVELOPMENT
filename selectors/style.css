@@ -16,3 +16,12 @@ p{
 #one{
     background-color: aquamarine;
 }
+article{
+    color: black;
+}
+p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}

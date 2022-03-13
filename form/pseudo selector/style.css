@@ -1,0 +1,11 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+}
+.box:hover{
+    background-color: aqua;
+}
+.box:active{
+    font-size: 30pt;
+}
