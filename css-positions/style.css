@@ -1,0 +1,47 @@
+.container {
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    z-index: -1;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: cadetblue;
+    color: azure;
+    font-size: 22px;
+}
+
+.one>.four {
+    position: absolute;
+    left: 100px;
+    right: 10px;
+    top: 100px;
+}
+
+.one>.five {
+    position: fixed;
+    left: 200px;
+    right: 20px;
+    top: 200px;
+}
+
+.container>.one {
+    position: sticky;
+    top: 30px;
+}
+
+.item:nth-child(5n) {
+    background-color: yellow;
+}
+
+.container:nth-child(2n) {
+    background-color: aqua;
+}
+
+.container>.two {
+    z-index: -10;
+}
